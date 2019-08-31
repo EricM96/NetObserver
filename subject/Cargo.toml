@@ -1,0 +1,9 @@
+[package]
+name = "subject"
+version = "0.0.1"
+authors = ["Eric McCullough <eric96@live.missouristate.edu>"]
+
+[dependencies] 
+base64 = "0.10.1"
+sniffglue = "0.9.0"
+env_logger = "0.6.2"
