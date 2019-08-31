@@ -9,7 +9,7 @@
 # Don't track VS Code configurations #
 ######################################
 .vscode/
-./subject/target
+./subject/target/
 ./subject/Cargo.lock 
 
 ./subject/*.rs.bk
