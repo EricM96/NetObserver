@@ -1,15 +1,3 @@
-# Don't track compiled source #
-###############################
-*.out
-*.exe
-*.dll
-*.o
-*.so
-
 # Don't track VS Code configurations #
 ######################################
 .vscode/
-./subject/target/
-./subject/Cargo.lock 
-
-./subject/*.rs.bk
