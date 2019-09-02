@@ -1,3 +1,7 @@
 # Don't track VS Code configurations #
 ######################################
 .vscode/
+
+# Don't track __pycache__ folders #
+###################################
+__pycache__/

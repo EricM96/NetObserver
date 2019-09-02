@@ -1,8 +1,8 @@
+from sys import stdout
 from autobahn.twisted.websocket import WebSocketServerFactory
 from twisted.python import log 
 from twisted.internet import reactor
-from ObserverWebSocketProtocol import ObserverWebSocketProtocol
-from sys import stdout
+from routes.ObserverWebSocketProtocol import ObserverWebSocketProtocol
 
 def main():
     log.startLogging(stdout)
