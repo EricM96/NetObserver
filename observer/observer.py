@@ -6,7 +6,7 @@ from sys import stdout
 
 def main():
     log.startLogging(stdout)
-    factory = WebSocketServerFactory(u'ws://127.0.0.1:8080')
+    factory = WebSocketServerFactory('ws://127.0.0.1:8080')
     factory.protocol = ObserverWebSocketProtocol
 
     reactor.listenTCP(8080, factory)
