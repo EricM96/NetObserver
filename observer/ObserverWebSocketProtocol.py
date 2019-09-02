@@ -1,3 +1,5 @@
+from autobahn.twisted.websocket import WebSocketServerProtocol
+
 class ObserverWebSocketProtocol(WebSocketServerProtocol):
 
     def onConnect(self, request):

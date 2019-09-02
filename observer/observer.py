@@ -1,13 +1,12 @@
-from autobahn.twisted.websocket import WebSocketServerProtocol, \
-    WebSocketServerFactory
+from autobahn.twisted.websocket import WebSocketServerFactory
 from twisted.python import log 
 from twisted.internet import reactor
 from ObserverWebSocketProtocol import ObserverWebSocketProtocol
-import sys
+from sys import stdout
 
 def main():
-    log.startLogging(sys.stdout)
-    factory = WebSocketServerFactory(u"ws://127.0.0.1:8080")
+    log.startLogging(stdout)
+    factory = WebSocketServerFactory(u'ws://127.0.0.1:8080')
     factory.protocol = ObserverWebSocketProtocol
 
     reactor.listenTCP(8080, factory)
