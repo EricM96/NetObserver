@@ -1,5 +1,5 @@
 {
-    "interface" : "wlx74da38de509b",
-    "filter" : "ip and not host 239.255.255.250 and not host 224.0.0.251 and not host 35.222.85.5 and not host 192.168.0.255",
-    "observer" : "ws://127.0.0.1:8080"
+    "interface" : "wlan0",
+    "filter" : "ip and not host 239.255.255.250 and not host 224.0.0.251 and not host 35.222.85.5 and not host 192.168.0.255 and not host 192.168.0.110",
+    "observer" : "ws://192.168.0.110:8080"
 }
